@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0816074C1F88444F0075FC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0816074B1F88444F0075FC09 /* AppDelegate.swift */; };
+		081607511F88444F0075FC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0816074F1F88444F0075FC09 /* Main.storyboard */; };
+		081607541F88444F0075FC09 /* LifeLike7_4a.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 081607521F88444F0075FC09 /* LifeLike7_4a.xcdatamodeld */; };
+		081607561F88444F0075FC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081607551F88444F0075FC09 /* Assets.xcassets */; };
+		081607591F88444F0075FC09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081607571F88444F0075FC09 /* LaunchScreen.storyboard */; };
+		081607611F8845D50075FC09 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081607601F8845D50075FC09 /* TableViewController.swift */; };
+		081607631F88460A0075FC09 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081607621F88460A0075FC09 /* TableViewCell.swift */; };
+		0857DB9C1F9D151A00C1DC8A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0857DB9B1F9D151A00C1DC8A /* FirstViewController.swift */; };
+		0887EF6A1F89453D00E2FAEB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0887EF691F89453D00E2FAEB /* MapKit.framework */; };
+		0887EF6C1F89DC7100E2FAEB /* Restorante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0887EF6B1F89DC7100E2FAEB /* Restorante.swift */; };
+		089D59671F885CF1008B62C4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089D59661F885CF1008B62C4 /* DetailViewController.swift */; };
+		08D536AB1F8BB1CA00328645 /* MapKitRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D536AA1F8BB1CA00328645 /* MapKitRViewController.swift */; };
+		08DB4D721F8ABC81003FDCDD /* ShowPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DB4D711F8ABC81003FDCDD /* ShowPhotoViewController.swift */; };
+		08DB4D741F8AC5C1003FDCDD /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DB4D731F8AC5C1003FDCDD /* DetailTableViewCell.swift */; };
+		08FD32921F901F750084D8AD /* AddResroranteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FD32911F901F750084D8AD /* AddResroranteTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		081607481F88444F0075FC09 /* LifeLike7.4a.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeLike7.4a.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0816074B1F88444F0075FC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		081607501F88444F0075FC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		081607531F88444F0075FC09 /* LifeLike7_4a.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LifeLike7_4a.xcdatamodel; sourceTree = "<group>"; };
+		081607551F88444F0075FC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		081607581F88444F0075FC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0816075A1F88444F0075FC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		081607601F8845D50075FC09 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		081607621F88460A0075FC09 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0857DB9B1F9D151A00C1DC8A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0887EF691F89453D00E2FAEB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0887EF6B1F89DC7100E2FAEB /* Restorante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restorante.swift; sourceTree = "<group>"; };
+		089D59661F885CF1008B62C4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		08D536AA1F8BB1CA00328645 /* MapKitRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitRViewController.swift; sourceTree = "<group>"; };
+		08DB4D711F8ABC81003FDCDD /* ShowPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPhotoViewController.swift; sourceTree = "<group>"; };
+		08DB4D731F8AC5C1003FDCDD /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		08FD32911F901F750084D8AD /* AddResroranteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddResroranteTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		081607451F88444F0075FC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0887EF6A1F89453D00E2FAEB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0816073F1F88444F0075FC09 = {
+			isa = PBXGroup;
+			children = (
+				0816074A1F88444F0075FC09 /* LifeLike7.4a */,
+				081607491F88444F0075FC09 /* Products */,
+				0887EF681F89453D00E2FAEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		081607491F88444F0075FC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				081607481F88444F0075FC09 /* LifeLike7.4a.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0816074A1F88444F0075FC09 /* LifeLike7.4a */ = {
+			isa = PBXGroup;
+			children = (
+				0816074B1F88444F0075FC09 /* AppDelegate.swift */,
+				081607601F8845D50075FC09 /* TableViewController.swift */,
+				0887EF6B1F89DC7100E2FAEB /* Restorante.swift */,
+				081607621F88460A0075FC09 /* TableViewCell.swift */,
+				089D59661F885CF1008B62C4 /* DetailViewController.swift */,
+				08DB4D711F8ABC81003FDCDD /* ShowPhotoViewController.swift */,
+				08DB4D731F8AC5C1003FDCDD /* DetailTableViewCell.swift */,
+				08D536AA1F8BB1CA00328645 /* MapKitRViewController.swift */,
+				08FD32911F901F750084D8AD /* AddResroranteTableViewController.swift */,
+				0857DB9B1F9D151A00C1DC8A /* FirstViewController.swift */,
+				0816074F1F88444F0075FC09 /* Main.storyboard */,
+				081607551F88444F0075FC09 /* Assets.xcassets */,
+				081607571F88444F0075FC09 /* LaunchScreen.storyboard */,
+				0816075A1F88444F0075FC09 /* Info.plist */,
+				081607521F88444F0075FC09 /* LifeLike7_4a.xcdatamodeld */,
+			);
+			path = LifeLike7.4a;
+			sourceTree = "<group>";
+		};
+		0887EF681F89453D00E2FAEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0887EF691F89453D00E2FAEB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		081607471F88444F0075FC09 /* LifeLike7.4a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0816075D1F88444F0075FC09 /* Build configuration list for PBXNativeTarget "LifeLike7.4a" */;
+			buildPhases = (
+				081607441F88444F0075FC09 /* Sources */,
+				081607451F88444F0075FC09 /* Frameworks */,
+				081607461F88444F0075FC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeLike7.4a;
+			productName = LifeLike7.4a;
+			productReference = 081607481F88444F0075FC09 /* LifeLike7.4a.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		081607401F88444F0075FC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = rafadiver;
+				TargetAttributes = {
+					081607471F88444F0075FC09 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 081607431F88444F0075FC09 /* Build configuration list for PBXProject "LifeLike1.0.1aaaxcodeproj" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0816073F1F88444F0075FC09;
+			productRefGroup = 081607491F88444F0075FC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				081607471F88444F0075FC09 /* LifeLike7.4a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		081607461F88444F0075FC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081607591F88444F0075FC09 /* LaunchScreen.storyboard in Resources */,
+				081607561F88444F0075FC09 /* Assets.xcassets in Resources */,
+				081607511F88444F0075FC09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		081607441F88444F0075FC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081607541F88444F0075FC09 /* LifeLike7_4a.xcdatamodeld in Sources */,
+				081607631F88460A0075FC09 /* TableViewCell.swift in Sources */,
+				08FD32921F901F750084D8AD /* AddResroranteTableViewController.swift in Sources */,
+				08DB4D741F8AC5C1003FDCDD /* DetailTableViewCell.swift in Sources */,
+				089D59671F885CF1008B62C4 /* DetailViewController.swift in Sources */,
+				08D536AB1F8BB1CA00328645 /* MapKitRViewController.swift in Sources */,
+				081607611F8845D50075FC09 /* TableViewController.swift in Sources */,
+				0887EF6C1F89DC7100E2FAEB /* Restorante.swift in Sources */,
+				08DB4D721F8ABC81003FDCDD /* ShowPhotoViewController.swift in Sources */,
+				0816074C1F88444F0075FC09 /* AppDelegate.swift in Sources */,
+				0857DB9C1F9D151A00C1DC8A /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0816074F1F88444F0075FC09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				081607501F88444F0075FC09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		081607571F88444F0075FC09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				081607581F88444F0075FC09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0816075B1F88444F0075FC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0816075C1F88444F0075FC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0816075E1F88444F0075FC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B4FVVK7JQ;
+				INFOPLIST_FILE = LifeLike7.4a/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafadiver.LifeLike7-4a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0816075F1F88444F0075FC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B4FVVK7JQ;
+				INFOPLIST_FILE = LifeLike7.4a/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafadiver.LifeLike7-4a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		081607431F88444F0075FC09 /* Build configuration list for PBXProject "LifeLike1.0.1aaaxcodeproj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0816075B1F88444F0075FC09 /* Debug */,
+				0816075C1F88444F0075FC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0816075D1F88444F0075FC09 /* Build configuration list for PBXNativeTarget "LifeLike7.4a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0816075E1F88444F0075FC09 /* Debug */,
+				0816075F1F88444F0075FC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		081607521F88444F0075FC09 /* LifeLike7_4a.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				081607531F88444F0075FC09 /* LifeLike7_4a.xcdatamodel */,
+			);
+			currentVersion = 081607531F88444F0075FC09 /* LifeLike7_4a.xcdatamodel */;
+			path = LifeLike7_4a.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 081607401F88444F0075FC09 /* Project object */;
+}
